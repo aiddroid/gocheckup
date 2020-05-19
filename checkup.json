@@ -1,0 +1,18 @@
+{
+  "checkers": [{
+    "type": "http",
+    "endpoint_name": "163",
+    "endpoint_url": "https://www.163.com",
+    "attempts": 5
+  },{
+    "type": "http",
+    "endpoint_name": "qq",
+    "endpoint_url": "https://www.qq.com",
+    "attempts": 5
+  }],
+  "storage":{
+    "type": "fs",
+    "dir": "/tmp",
+    "filename": "gocheckup.log"
+  }
+}
